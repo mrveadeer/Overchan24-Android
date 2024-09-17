@@ -5,7 +5,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath 'com.android.tools.build:gradle:7.4.1'
     }
 }
 
@@ -27,8 +27,7 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "27.0.3"
+    buildToolsVersion "30.0.3"
     flavorDimensions "default"
 
     packagingOptions {
@@ -57,10 +56,18 @@ android {
             path 'jni/CMakeLists.txt'
         }
     }
-    defaultConfig {}
+    defaultConfig {
+        minSdkVersion 4
+        compileSdk 24
+        targetSdk 24
+    }
     productFlavors {
         unofficial {
             applicationId 'unofficial.nya.miku.wishmaster'
         }
+    }
+
+    lint {
+        disable += ['ExpiredTargetSdkVersion']
     }
 }

@@ -4,7 +4,7 @@
 #include <limits.h>
 #include <stdlib.h>
 #include <malloc.h>
-
+#include <unistd.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <string.h>

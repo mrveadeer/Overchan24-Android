@@ -21,8 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     package="nya.miku.wishmaster"
     android:installLocation="auto"
     tools:ignore="UnusedAttribute"
-    android:versionCode="73"
-    android:versionName="1.9.0-beta21">
+    android:versionCode="74"
+    android:versionName="1.9.0-beta22">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
@@ -30,6 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     
     <uses-sdk
         android:minSdkVersion="4"
@@ -40,7 +41,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         android:allowBackup="true"
         android:supportsRtl="false"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:resizeableActivity="true">
         
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -55,6 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <activity
             android:name="nya.miku.wishmaster.ui.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
             android:windowSoftInputMode="adjustNothing"
             android:launchMode="singleTask" >
             <intent-filter>
@@ -289,7 +292,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <activity android:name="nya.miku.wishmaster.ui.settings.CertificatesActivity" />
         <activity android:name="nya.miku.wishmaster.ui.settings.CustomThemeListActivity" />
         
-        <activity android:name="nya.miku.wishmaster.ui.ShareActivity" >
+        <activity android:name="nya.miku.wishmaster.ui.ShareActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <action android:name="android.intent.action.SEND_MULTIPLE" />
