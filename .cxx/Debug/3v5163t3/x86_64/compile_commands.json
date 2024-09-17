@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64",
+  "command": "C:\\Users\\vvv\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/vvv/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgif_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -g  -fno-limit-debug-info -fPIC -o giflib\\CMakeFiles\\gif.dir\\gif.c.o -c C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\gif.c",
+  "file": "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\gif.c"
+},
+{
+  "directory": "C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64",
+  "command": "C:\\Users\\vvv\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/vvv/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgif_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -g  -fno-limit-debug-info -fPIC -o giflib\\CMakeFiles\\gif.dir\\giflib\\dgif_lib.c.o -c C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\giflib\\dgif_lib.c",
+  "file": "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\giflib\\dgif_lib.c"
+},
+{
+  "directory": "C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64",
+  "command": "C:\\Users\\vvv\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=C:/Users/vvv/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dgif_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -g  -fno-limit-debug-info -fPIC -o giflib\\CMakeFiles\\gif.dir\\giflib\\gifalloc.c.o -c C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\giflib\\gifalloc.c",
+  "file": "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\giflib\\gifalloc.c"
+}
+]

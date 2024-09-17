@@ -1,0 +1,7 @@
+# ninja log v5
+3	139	7482979567665465	giflib/CMakeFiles/gif.dir/giflib/gifalloc.c.o	1b770a76713d5202
+1	191	7482979568194048	giflib/CMakeFiles/gif.dir/giflib/dgif_lib.c.o	c1c0b2e6b492989e
+6	214	7482979568433398	giflib/CMakeFiles/gif.dir/gif.c.o	3b59e4e72dbfd3a4
+215	297	7482979569351200	C:/Users/vvv/StudioProjects/Overchan24-Android/build/intermediates/cxx/Debug/3v5163t3/obj/armeabi-v7a/libgif.so	b43cf3af2db3bad1
+2	169	7482980541561132	giflib/CMakeFiles/gif.dir/gif.c.o	3b59e4e72dbfd3a4
+169	243	7482980542408848	C:/Users/vvv/StudioProjects/Overchan24-Android/build/intermediates/cxx/Debug/3v5163t3/obj/armeabi-v7a/libgif.so	b43cf3af2db3bad1

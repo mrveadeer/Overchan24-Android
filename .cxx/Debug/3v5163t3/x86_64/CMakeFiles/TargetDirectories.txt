@@ -1,0 +1,5 @@
+C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64/giflib/CMakeFiles/gif.dir
+C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64/giflib/CMakeFiles/edit_cache.dir
+C:/Users/vvv/StudioProjects/Overchan24-Android/.cxx/Debug/3v5163t3/x86_64/giflib/CMakeFiles/rebuild_cache.dir

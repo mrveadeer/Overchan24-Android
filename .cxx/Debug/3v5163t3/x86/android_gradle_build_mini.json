@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\CMakeLists.txt",
+    "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\jni\\giflib\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\vvv\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\.cxx\\Debug\\3v5163t3\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\vvv\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\.cxx\\Debug\\3v5163t3\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "gif::@d62cfdc269a419acd4b5": {
+      "artifactName": "gif",
+      "abi": "x86",
+      "output": "C:\\Users\\vvv\\StudioProjects\\Overchan24-Android\\build\\intermediates\\cxx\\Debug\\3v5163t3\\obj\\x86\\libgif.so",
+      "runtimeFiles": []
+    }
+  }
+}
